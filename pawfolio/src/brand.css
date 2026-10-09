@@ -1,0 +1,34 @@
+.brand-logo-image {
+  display: block;
+  width: 154px;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.brand-logo-image.brand-logo-icon {
+  width: 36px;
+  height: 36px;
+}
+.auth-story .brand-logo-image {
+  width: 175px;
+}
+.dashboard-sidebar .brand-logo-image {
+  width: 151px;
+}
+.mobile-dash-header .brand-logo-image {
+  width: 145px;
+}
+.footer-top .brand-logo-image {
+  width: 138px;
+}
+@media (max-width: 760px) {
+  .header-inner .brand-logo-image {
+    width: 140px;
+  }
+}
+@media (max-width: 380px) {
+  .header-inner .brand-logo-image {
+    width: 120px;
+  }
+}
