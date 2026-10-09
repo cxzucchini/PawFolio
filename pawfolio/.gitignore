@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+.env.local
+.cache/
+*.log
+public/figma-preview/
+scripts/export-figma.mjs
